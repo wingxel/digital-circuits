@@ -56,6 +56,10 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <boardmap boardname="BASYS2">
+      <mc/>
+      <mc/>
+    </boardmap>
     <comp lib="0" loc="(330,180)" name="Tunnel">
       <a name="label" val="RCO"/>
     </comp>
@@ -181,6 +185,9 @@
     </comp>
     <comp lib="8" loc="(460,555)" name="Text">
       <a name="text" val="=&gt; Ripple clock output (RCO) for counter B can be used to drive another counter to achieve higher modulus."/>
+    </comp>
+    <comp lib="8" loc="(793,28)" name="Text">
+      <a name="text" val="TODO - Create a multiplexer for seven segment displays"/>
     </comp>
     <comp loc="(320,280)" name="AsyncDecadeCounterDff">
       <a name="label" val="CNTR_DIV_10_B"/>
